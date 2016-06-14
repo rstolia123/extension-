@@ -1,0 +1,20 @@
+{ 
+	"manifest_version": 2,
+
+   "name": "WikiSearch",
+   "description": "Searches for the selecetd text on wikipedia.org",
+   "version": "1.0",
+
+   "permissions": [
+      "contextMenus", 
+      "tabs"
+   ],
+
+   "icons":{
+   	"16": "images/search.png"
+   	},
+
+    "background":{
+    	"page" : "background.html"
+    }
+}
